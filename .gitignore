@@ -1,0 +1,25 @@
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# Local databases and generated vector data
+backend/qdrant_storage/
+
+# Local configuration
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
